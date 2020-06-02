@@ -10,7 +10,7 @@ let func = (time) => {
         for (let j = i+1; j < time.length; j++){
             tmp = time[i] + time[j];
             if (tmp % 60 === 0) {
-                
+                result++
             }
         }
     }
