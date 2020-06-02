@@ -15,5 +15,6 @@ let func = (time) => {
         }
     }
     return result
+    
 };
 console.log(func(aray));
