@@ -2,7 +2,7 @@
 //petq e veradarcnenq te qani nman zuyg ka chkrknvox
 
 let aray = [30,20,150,100,40];
-
+let x = [123,123,124];
 let func = (time) => {
     let result = 0;
     let tmp;
@@ -16,4 +16,5 @@ let func = (time) => {
     }
     return result
 };
+
 console.log(func(aray));
