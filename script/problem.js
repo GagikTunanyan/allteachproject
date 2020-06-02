@@ -4,6 +4,7 @@
 let aray = [30,20,150,100,40];
 
 let func = (time) => {
+    let result = 0;
     let tmp;
     for (let i = 0; i < time.length; i++){
         for (let j = i+1; j < time.length; j++){
@@ -14,6 +15,5 @@ let func = (time) => {
         }
     }
     return result
-    
 };
 console.log(func(aray));
