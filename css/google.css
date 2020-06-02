@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+#signin {
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+span {
+    margin-right: 13px;
+}
+.arm {
+    color: blue;
+    margin-left: 3px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.arm:hover {
+    color: blue;
+    border-bottom: 1px solid blue ;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.rus{
+    color: blue;
+    margin-left: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.rus:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+    margin-left: 4px;
+    font-size: 14px;
+}
+a.a {
+    color: black;
+    text-decoration: none;
+}
+a.a:hover {
+    border-bottom: 1px solid black;
+}
+a.but-two {
+    text-decoration: none;
+    color:#484848;
+;
+}
+#google-top {
+    width: 272px;
+    margin-top: 160px;
+    left: 40%;
+}
+#input {
+    left: 28%;
+}
+.search {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.microfon {
+    position: absolute;
+    margin-top: 26px;
+    margin-left: -35px;
+}
+.input {
+    margin-top: 15px;
+    outline: none;
+    left: auto;
+    width: 544px;
+    height: 40px;
+    border:1px outset rgba(52, 52, 52, 0.34);
+    border-radius: 45px;
+    padding-left: 40px;
+}
+.input:hover {
+    outline: none;
+    left: auto;
+    width: 544px;
+    height: 40px;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.2);
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+    margin-bottom: -8px;
+    cursor: pointer;
+}
+.signin {
+    width: 70px;
+    height: 30px;
+    color: rgb(255, 253, 254);
+    background-color: rgba(3, 118, 255, 0.85);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+a.signin-a {
+    text-decoration: none;
+    color: white;
+}
+#two-button {
+    margin-top: 30px;
+}
+.button-one {
+    font-size: 14px;
+    width: 130px;
+    height: 37px;
+    border: none;
+    background-color: rgba(208, 208, 208, 0.34);
+    color:  #484848;
+    border-radius: 5px;
+}
+.button-one:hover {
+    font-size: 14px;
+    width: 130px;
+    height: 37px;
+    background-color: rgba(208, 208, 208, 0.34);
+    color: #212121;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    cursor: pointer;
+}
+.button-two {
+    font-size: 14px;
+    height: 37px;
+    width: 150px;
+    border: none;
+    background-color: rgba(208, 208, 208, 0.34);
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.button-two:hover {
+    font-size: 14px;
+    width: 150px;
+    height: 37px;
+    background-color: rgba(208, 208, 208, 0.34);
+    color: #212121;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    cursor: pointer;
+}
+p.p{
+    margin-top: 0;
+    font-size: 14px;
+    color: #212121;
+}
+.language {
+    margin-top: 30px;
+}
+.div-align {
+    width:600px;
+    margin: auto;
+}
+.father-div-align {
+    text-align: center;
+}
+.country {
+    margin-left: 30px;
+    color: rgba(0,0,0,.54);
+}

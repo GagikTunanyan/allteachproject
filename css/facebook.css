@@ -1,0 +1,445 @@
+body {
+    margin:0;
+    background-color: #edf0f5;
+    width: 99.8%;
+}
+#facebook-top {
+    font-family: Helvetica, Arial, SansSerif;
+    border-bottom: 1px solid #0000b4;
+    width: 100%;
+    height: 82px;
+    background: linear-gradient(#4e69a2, #3b5998 50%)
+}
+.h1-facebook {
+    height: 65px;
+    width: 175px;
+    float: left;
+}
+.p-email , .p-password , .forgot-account {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+p.forgot-account {
+    margin-top: 6px;
+    margin-bottom: 0;
+    width: 217px;
+    padding-left:178px ;
+}
+a.forgout-a {
+    color: #85a6cd;
+    text-decoration: none;
+}
+
+h1.facebook {
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.input-login, .input-password {
+    width: 140px;
+    margin: 0;
+    border: 1px solid #1d2a5b;
+    height: 17px;
+    outline: none;
+    padding: 2px;
+}
+form span,button {
+    display: inline-block;
+}
+.form-div {
+    margin-top: 15px;
+    width: 392px;
+    height: 65px;
+    font-size: 12px;
+    float: right;
+}
+.log-all,.pass-all,.log-but {
+    margin-left: 14px;
+    color: white;
+}
+.log-but {
+    font-size: 12px;
+    height: 24px;
+    width: 50px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+}
+.top-all {
+    margin-left: 157px;
+    margin-right: 157px;
+}
+
+
+
+
+#block-right {
+ float: right;
+    margin-right: 157px;
+    margin-top: 20px;
+}
+
+.sign-block-right {
+    color:#333;
+    font-size: 35px;
+    font-weight:bold;
+    font-family:Helvetica;
+    margin: 0;
+}
+
+.signdown-block-right {
+    color:#333;
+    font-size: 20px;
+    line-height: 1.26;
+    font-family:Hoefler Text;
+    margin:3px 0 20px 0;
+}
+
+#block-right-register {
+
+}
+.form-register{
+    width: 400px;
+}
+.register-name {
+    margin-bottom: 10px;
+}
+.first-name {
+    margin-left: 0;
+    width: 172px;
+    margin-right: 8px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    outline: none;
+}
+.Last-name {
+    margin-left:0;
+    width: 172px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    outline: none;
+}
+.email-or-phonenumber {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    width: 378px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.password {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    width: 378px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.birthday {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    color: #90949c;
+    font-weight: bold;
+}
+select {
+    outline: none;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #ccd0d5;
+}
+.month , .select-day {
+    margin-right: -4px;
+}
+.select-day{
+    width: 56px;
+}
+.question {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.gender {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    color: #90949c;
+    font-weight: bold;
+}
+.radio-type-div {
+    color: #1d2129;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+.radio-1 , .radio-2 , .radio-3 {
+    padding: 5px 0 5px 4px;
+}
+.radio-all-text {
+    margin-right: 10px;
+}
+.question1 {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+a {
+    text-decoration:none;
+    color: blue;
+}
+a:hover {
+    margin-bottom: 0;
+    border-bottom: 1px solid blue;
+}
+
+.custom-div-hidden {
+    display: none;
+}
+
+.custom-select {
+    height: 30px;
+    width: 100%;
+    margin-top:15px;
+    margin-left: 0;
+    font-size: 12px;
+    color:#1c1e21;
+}
+.custom-icon {
+    position: absolute;
+    margin-top: 19px;
+    margin-left: -41px;
+    display: none;
+}
+.custom-div-p-mini-text {
+    font-size: 13.8px;
+    color: #606770;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.input-gender-optional {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    width: 378px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.mini-text {
+    font-family: inherit;
+    font-size: 12px;
+    color: #777;
+    width: 316px;
+    margin: 1em 0;
+}
+.butt-sign-up {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 7px 20px;
+    font-size: 19px;
+    letter-spacing: normal;
+    font-weight: bold;
+    line-height: 126%;
+    width: 194px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    background:linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+}
+
+.create-a-page {
+    width: 400px;
+    border-top: 1px solid #dddfe2;
+    color:#666;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+
+
+
+#block-left {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    margin-left: 157px;
+
+}
+
+.left-bold-text {
+    color: #333;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    padding: 42px 0 24px;
+    width: 456px;
+}
+.normal-text-icon {
+    font-size: 15px;
+    color: #666;
+    margin-left: 70px;
+}
+.bold-text-icon {
+    font-weight: bold;
+    color:#333;
+    margin-right: 2px;
+    font-size: 17px;
+}
+.photos-updates-facebook {
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.img-photo-facebook {
+    position: absolute;
+    margin-top: -10px;
+}
+.img-share-facebook {
+    position: absolute;
+    margin-top: -14px;
+}
+.share-facebook {
+    margin-top: 50px;
+    margin-left: 2px;
+}
+.img-find-facebook {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -2px;
+}
+.find-facebook {
+    margin-top: 62px;
+    margin-left: 3px;
+}
+
+
+
+#language-country-border {
+    border-top: 1px solid #edf0f5;
+    border-bottom:1px solid #edf0f5;
+    background-color: white;
+    margin-top: 225px;
+    height: auto;
+}
+.language-country-border-hidden {
+    margin-top: 345px !important;
+}
+.country-language-father{
+    width: 980px;
+    border-bottom:1px solid  #dddfe2 ;
+    margin-left: 157px;
+    margin-top: 40px;
+}
+.country-language {
+    word-spacing: 5px;
+    font-size: 13.8px;
+    color:#385898;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.adm-facebook-father {
+    margin-left: 157px;
+}
+.adm-facebook {
+    font-size: 11.4px;
+    color:#385898 ;
+    cursor: pointer;
+}
+.corporetion-facebook {
+    margin-left: 157px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:inherit;
+    font-size: 12.5px;
+    color: #737373;;
+}
+
+.error-border {
+    border:1px solid red;
+}
+
+.icon-error-first {
+    position: absolute;
+    margin-left: -41px;
+    margin-top: 7px;
+    display: none;
+}
+.error-name-text {
+    font-size: 13.5px;
+    border: 1px solid #be4a49;
+    border-radius: 2px;
+    width: 105px;
+    padding: 15px 7px;
+    background-color: #be4a49;
+    color: white;
+    position: absolute;
+    margin-top: -44px;
+    margin-left: -125px;
+    display: none;
+}
+
+.icon-error-last {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 7px;
+    display: none;
+}
+
+.icon-error-email {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -28px;
+    display: none;
+}
+.error-email-or-phonenumber-text {
+    font-size: 14px;
+    border: 1px solid #be4a49;
+    border-radius: 2px;
+    width: 295px;
+    line-height: 20px;
+    padding: 13px 10px;
+    background-color: #be4a49;
+    color: white;
+    position: absolute;
+    margin-left:-320px;
+    margin-top: -50px;
+    display: none;
+}
+
+.icon-error-password {
+    display: none;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -28px;
+}
+.error-password-text {
+    font-size: 14px;
+    border: 1px solid #be4a49;
+    border-radius: 2px;
+    width: 290px;
+    line-height: 20px;
+    padding: 13px 10px;
+    background-color: #be4a49;
+    color: white;
+    position: absolute;
+    margin-left: -315px;
+    margin-top: -50px;
+    display: none;
+}

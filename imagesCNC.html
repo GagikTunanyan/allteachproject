@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images CNC</title>
+    <link rel="stylesheet" href="css/imagesCNC.css">
+    <script src="script/jquery.js"></script>
+</head>
+<body>
+    <div class="but">
+        <span class="prev">Prev</span>
+        <span class="next">Next</span>
+    </div>
+    <div id="col">
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    </div>
+    <script>
+        $( ".next" ).click(function() {
+            $( "p" ).first().show( "fast", function showNext() {
+                $( this ).next( "p" ).show( "fast", showNext );
+            });
+        });
+
+        $( ".prev" ).click(function() {
+            $( "p" ).hide( 1000 );
+        });
+    </script>
+
+</body>
+</html>

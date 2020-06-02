@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-image: url("../images/krknvox.jpg") ;
+    font-family: American Typewriter, serif;
+}
+h1 {
+    color: #88ff0b;
+    height: 200px;
+    font-size: 100px;
+    padding-left: 420px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    background-image: url("../images/home.jpg");
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+a:hover {
+    color: darkred;
+}
+.b {
+    color:snow;
+    font-size: 20px;
+    font-family: "Tlwg Typist";
+    font-style: normal;
+    background-color: rgba(255, 140, 0, 0.74);
+    border: 2px inset rgba(111, 111, 111, 0.6);
+    width: 220px;
+    height: 150px;
+    overflow: scroll;
+}

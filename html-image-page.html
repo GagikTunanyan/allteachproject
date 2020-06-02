@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+    <link rel="shortcut icon" href="images/bootstrap/page-icon1.png">
+    <link rel="stylesheet" href="css/css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css-image-page.css">
+    <script src="script/jquery.js"></script>
+    <script src="script/js-bootstrap/bootstrap.min.js"></script>
+    <script src="script/jq-image-page.js"></script>
+    <script src="plugins/lc-lightbox/js/lc_lightbox.lite.js"></script>
+    <script src="plugins/lc-lightbox/lib/AlloyFinger/alloy_finger.min.js"></script>
+    <link rel="stylesheet" href="plugins/lc-lightbox/css/lc_lightbox.css">
+    <link rel="stylesheet" href="plugins/lc-lightbox/skins/dark.css">
+    <link rel="stylesheet" href="plugins/lc-lightbox/skins/minimal.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu-home">
+        <a class="navbar-brand" id="home-icon-navbar" href="html-image-page.html">
+            <svg class="bi bi-images image-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.002 4h-10a1 1 0 00-1 1v8a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1zm-10-1a2 2 0 00-2 2v8a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2h-10z" clip-rule="evenodd"/>
+                <path d="M10.648 8.646a.5.5 0 01.577-.093l1.777 1.947V14h-12v-1l2.646-2.354a.5.5 0 01.63-.062l2.66 1.773 3.71-3.71z"/>
+                <path fill-rule="evenodd" d="M4.502 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM4 2h10a1 1 0 011 1v8a1 1 0 01-1 1v1a2 2 0 002-2V3a2 2 0 00-2-2H4a2 2 0 00-2 2h1a1 1 0 011-1z" clip-rule="evenodd"/>
+            </svg>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html-video-page.html">Video</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="html-image-page.html">Image</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Info</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                    </a>
+                    <div class="dropdown-menu" id="drop-down-menu-div" aria-labelledby="#navbarDropdown">
+                        <a class="dropdown-item" href="#">How to Register Page</a>
+                        <a class="dropdown-item" href="#">How to Delete User</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">About</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <img src="images/bootstrap/call.jpg" width="30px" class="call">
+            </div>
+            <div id="call-me-id">
+                <span class="call-me">Call Me</span>
+                <p class="phone-number">+374-98-81-85-30</p>
+            </div>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 button-search" type="submit">Search</button></form>
+        </div>
+    </nav>
+
+    <div id="image-list-slide"></div>
+
+
+</body>
+</html>

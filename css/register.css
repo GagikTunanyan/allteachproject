@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: khaki;
+}
+.reg {
+    padding-top: 100px;
+    font-family: "DejaVu Sans Mono";
+    color:black;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.form {
+    margin-top: 40px;
+    margin-left:500px;
+    border: 3px dashed #9d9ba4;
+    background-color: rgba(125,165,111,0.5) ;
+    text-align: center;
+    width: 300px;
+    height: 380px;
+    font-size: 12px;
+}
+.register {
+    margin-top: 20px;
+    width: 170px;
+    background-color: #031e64;
+    border-color: #0e1664;
+    color: #fffdfe;
+    cursor: pointer;
+}
+.hidenName {
+    display: none;
+    color: red;
+}
+.hidenMail {
+    display: none;
+    color: red;
+}
+.hidenPass {
+    display: none;
+    color: red;
+}
+.hidenPass1 {
+    display: none;
+    color: red;
+}
+
+.error {
+    display: none;
+    color: red;
+    margin-top: 0;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.error-form {
+    border-color:red;
+}

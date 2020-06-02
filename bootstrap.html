@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CNC Home</title>
+    <link rel="shortcut icon" href="images/bootstrap/page-icon1.png">
+    <link rel="stylesheet" href="css/css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="script/jquery.js"></script>
+    <script src="script/js-bootstrap/bootstrap.min.js"></script>
+    <script src="script/bootsrap.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu-home">
+        <a class="navbar-brand" id="home-icon-navbar" href="bootstrap.html">
+            <svg class="bi bi-house-fill home-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+            </svg>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="bootstrap.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html-video-page.html">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html-image-page.html">Image</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Info</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                    </a>
+                    <div class="dropdown-menu" id="drop-down-menu-div" aria-labelledby="#navbarDropdown">
+                        <a class="dropdown-item" href="#">How to Register Page</a>
+                        <a class="dropdown-item" href="#">How to Delete User</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">About</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <img src="images/bootstrap/call.jpg" width="30px" class="call">
+            </div>
+            <div id="call-me-id">
+                <span class="call-me">Call Me</span>
+                <p class="phone-number">+374-98-81-85-30</p>
+            </div>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 button-search" type="submit">Search</button></form>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/bootstrap/slide-cnc-image1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/bootstrap/slide-cnc-image2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/bootstrap/slide-cnc-image-3.png" class="d-block w-100 cnc-slide" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-2 vertical-menu">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" data-toggle="pill" href="#v-pills-machinery" aria-selected="true">
+                    Machinery<span class="badge badge-light notification notification-type-pc">0</span>
+                </a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-program">Program
+                    <span class="badge badge-light notification notification-type-program">0</span>
+                </a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-cutting-tools">Cutting Tools
+                    <span class="badge badge-light notification notification-type-cutting">0</span>
+                </a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-stepper-motors">Stepper Motors</a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-stepper-drivers">Stepper Drivers</a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-breakout-board">Breakout Board</a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-spindle-motor">Spindle Motor Kit</a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-rotary-axis">Rotary Axis</a>
+                <a class="nav-link" data-toggle="pill" href="#v-pills-3d-models">3D models</a>
+            </div>
+        </div>
+
+        <div class="col-10 horizontal-entatext">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-machinery">
+                    <div class="row row-cols-1 row-cols-md-4"></div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-program">
+                    <div class="row row-cols-1 row-cols-md-4"></div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-cutting-tools">
+                    <div class="row row-cols-1 row-cols-md-4">
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/cutter-images/card-cutter-v.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Cutting Tool R0.25-2mm D6 L75</h5>
+                                    <p class="card-entatext">Size:R0.25-2mm,D6,C30.5mm,L75</p>
+                                    <p class="card-entatext">HRC:55</p>
+                                    <p class="card-entatext">Type: V-Type,2-Flute</p>
+                                    <p class="card-entatext">Material: Carbid Volfram </p>
+                                    <p class="card-entatext">Working RPM: 0-24000RPM</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 15$</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/cutter-images/card-cutter-v-6pc.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Cutting Tools 6pc R0.25-2mm</h5>
+                                    <p class="card-entatext">Size:R0.25mm,0,5mm,0.75mm,1mm,1.5mm,2mm,D6,L75</p>
+                                    <p class="card-entatext">Type: V-Type,2-Flute</p>
+                                    <p class="card-entatext">Material: Carbid Volfram </p>
+                                    <p class="card-entatext">Working RPM: 0-24000RPM</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 90$</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-stepper-motors">
+                    <div class="row row-cols-1 row-cols-md-4">
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/stepper-motor/card-image-nema23.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Nema23 57hs82-4004</h5>
+                                    <p class="card-entatext">Model: 57hs82-4004 </p>
+                                    <p class="card-entatext">Angle: 1.8 Degre</p>
+                                    <p class="card-entatext">Power:4A 3.2NM</p>
+                                    <p class="card-entatext">Size: 57mm X 57mm X 82mm</p>
+                                    <p class="card-entatext">Power Supply: 12-36V</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 45$</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/stepper-motor/card-image-nema34.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Nema34 86hs118-6004</h5>
+                                    <p class="card-entatext">Model: 86hs118-6004 </p>
+                                    <p class="card-entatext">Angle: 1.8 Degre</p>
+                                    <p class="card-entatext">Power:6A 8.5NM</p>
+                                    <p class="card-entatext">Size: 86mm X 86mm X 118mm</p>
+                                    <p class="card-entatext">Power Supply: 48-60v</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 90$</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-stepper-drivers">
+                    <div class="row row-cols-1 row-cols-md-4">
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/stepper-driver/card-image-dm556d.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stepper Driver DM556D</h5>
+                                    <p class="card-entatext">Model: DM556D </p>
+                                    <p class="card-entatext">Phase: 2Phase</p>
+                                    <p class="card-entatext">Power:1.5A-5.6A</p>
+                                    <p class="card-entatext">Size: 118mm X 75mm X 32mm</p>
+                                    <p class="card-entatext">Power Supply: 24-50V</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 60$</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/stepper-driver/card-image-dm860d.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stepper Driver DM860D</h5>
+                                    <p class="card-entatext">Model: DM860D </p>
+                                    <p class="card-entatext">Phase: 2Phase</p>
+                                    <p class="card-entatext">Power: 2A-7.2A</p>
+                                    <p class="card-entatext">Size: 150mm X 99mm X 48mm</p>
+                                    <p class="card-entatext">Power Supply: 20-60V</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 95$</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-breakout-board">
+                    <div class="row row-cols-1 row-cols-md-4">
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/brakout-board/card-image-hg08.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Breakout Board HG08</h5>
+                                    <p class="card-entatext">Model: HG08 LPT </p>
+                                    <p class="card-entatext">Axis: 5 Axis</p>
+                                    <p class="card-entatext">Kit: HG08 + LPT Cable</p>
+                                    <p class="card-entatext">Spindle Output Switch: Yes</p>
+                                    <p class="card-entatext">Power Supply: 12-50V</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 60$</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4 card-padding">
+                            <div class="card">
+                                <img src="images/bootstrap/brakout-board/card-image-tb6560.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Brakout Board TB6560</h5>
+                                    <p class="card-entatext">Model: TB6560 LPT </p>
+                                    <p class="card-entatext">Axis: 4 Axis</p>
+                                    <p class="card-entatext">Output Power:Max 4A,For Nema23</p>
+                                    <p class="card-entatext">Kit: TB6560 + LPT Cable</p>
+                                    <p class="card-entatext">Power Supply: 24-36V</p>
+                                    <a href="#" class="btn btn-primary btn-buy">Buy 100$</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-spindle-motor">
+                    <div class="row row-cols-1 row-cols-md-4"></div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-rotary-axis">...</div>
+                <div class="tab-pane fade" id="v-pills-3d-models">...</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

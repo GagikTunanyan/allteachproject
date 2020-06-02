@@ -1,0 +1,24 @@
+div#d {
+    position: absolute;
+    border: 2px dashed blue;
+    background-color:rgba(30,50,80,0.2);
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+div#d1 {
+    position: relative;
+    top: 30%;
+}
+
+#left {
+    display: flex;
+    float: left;
+    top: 30px;
+}
+#right {
+    display: flex;
+    float: right;
+}

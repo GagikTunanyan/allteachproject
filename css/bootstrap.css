@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+.menu-home {
+    padding: 10px 70px 10px 150px;
+    background:linear-gradient(rgb(146, 0, 82), #3c0022);
+}
+#home-icon-navbar {
+    color: white;
+
+}
+#home-icon-navbar:hover {
+    color: black;
+}
+.home-icon {
+     margin-bottom: 0;
+     font-size: 45px;
+ }
+.navbar-light .navbar-nav .nav-link {
+    color: #dddddd;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#28a745;
+}
+#drop-down-menu-div {
+    background:linear-gradient(rgb(180, 0, 101), #5c0039);
+    font-size: 15px;
+}
+#drop-down-menu-div a {
+    color: white;
+}
+#drop-down-menu-div a:hover {
+    color: black;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(165, 165, 165, 0.62));
+}
+
+
+.call {
+    border-radius: 30px;
+    margin-right: 20px;
+}
+#call-me-id {
+    margin-right: 35px;
+    margin-top: 4px;
+    line-height: 15px;
+}
+.call-me {
+    padding-left: 31px;
+    color: #dddddd;
+}
+.phone-number {
+    font-size: 14px;
+    margin: 0;
+    color: #7e7e7e;
+}
+
+.button-search {
+    color: white;
+    border-color: white;
+}
+.xoracum {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.xoracum li:hover {
+    color: black;
+}
+
+
+.carousel-inner , .carousel-item {
+    height:350px;
+}
+.cnc-slide {
+    margin-top: -325px;
+}
+
+.row {
+    margin: 15px 0 0 0 ;
+}
+.vertical-menu {
+    padding: 0;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    color: rgb(180, 0, 101);
+    padding-left: 55px;
+}
+.nav-pills .nav-link.active {
+    background:linear-gradient(rgba(255, 67, 162, 0.78), rgba(180, 0, 101, 0.95));
+}
+.nav-link.active .notification {
+    color: black;
+}
+.notification {
+    float: right;
+    margin-top: 3px;
+    color:rgb(180, 0, 101);
+}
+
+
+
+.card-padding {
+    padding: 0 0 0 15px;
+}
+.card-text {
+    margin-bottom: 0;
+    padding:0;
+}
+.card-entatext {
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.card-body {
+    padding: 0 0 12px 0;
+}
+.card-body h5 {
+    font-size: 15px;
+}
+.btn-buy {
+    margin-top: 10px;
+}
+.card-machinery-height {
+    height: 325px;
+}
+.card-program-height {
+    height: 343px;
+}
+
+.card-image-coreldraw {
+    width: 243px;
+}
+
